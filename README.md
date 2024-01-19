@@ -1,6 +1,7 @@
 ### PROJECT: BUILDING ETL PIPELINE
 ---
-
+## OVERVIEW
+> [!NOTE]
 ### 1. Introduction
 In this project, I build an ETL pipeline for a database hosted on Redshift. I will need to:
     - extract data from S3 to staging tables on Redshift
