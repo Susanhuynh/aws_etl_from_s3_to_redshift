@@ -3,19 +3,18 @@
 </p>
 <h1 align="center">ETL PIPELINE FROM S3 TO REDSHIFT BY IaC</h1>
 
-## OVERVIEW
+### OVERVIEW
 > [!NOTE]
-> abc
-### 1. Introduction
-In this project, I build an ETL pipeline for a database hosted on Redshift. I will need to:
-    - extract data from S3 to staging tables on Redshift
-    - transform data by executing SQL statements that create the analytics tables from these staging tables by start schema.
-    - load star shema tables to Redshift
+> In this project, I build an ETL pipeline for a database hosted on Redshift. I will need to:
+>    - extract data from S3 to staging tables on Redshift
+>    - transform data by executing SQL statements that create the analytics tables from these staging tables by start schema.
+>    - load star shema tables to Redshift
+
 
 ![Data Pipeline](data_pipeline.png)
     
 ### 2. Tech Stack and Knowledge
-![Docker](https://img.shields.io/badge/Docker-white?style=flat&logo=Docker&logoColor=white&color=blue)
+![Amazon S3](https://img.shields.io/badge/amazons3-white?style=flat&logo=amazons3&logoColor=white&color=%23569A31)  ![Amazon Redshift](https://img.shields.io/badge/amazonredshift-white?style=flat&logo=amazons3&logoColor=white&color=%238C4FFF)  ![Amazon IAM](https://img.shields.io/badge/amazoniam-white?style=flat&logo=amazoniam&logoColor=white&color=%23DD344C)
 
 - Data warehouse knowledge
     - Dimensional Modeling
@@ -24,10 +23,6 @@ In this project, I build an ETL pipeline for a database hosted on Redshift. I wi
     - Data warehouse Architecture
     - Optimizing Table Design using Distribution and Sort Styles
 - Tech/Framework used
-    - AWS S3
-    - AWS Redshift
-    - AWS IAM
-    - Python
     - SQL
     - Python SDK for AWS (boto3)
     - Infrastructure as a Code (IaC)
