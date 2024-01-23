@@ -1,5 +1,8 @@
-### PROJECT: BUILDING ETL PIPELINE
----
+<p align="center">
+<img height="100" width="100" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/etl-10518137-8480186.png?f=webp&w=256"/>
+</p>
+<h1 align="center">ETL PIPELINE FROM S3 TO REDSHIFT BY IaC</h1>
+
 ## OVERVIEW
 > [!NOTE]
 > abc
@@ -12,6 +15,7 @@ In this project, I build an ETL pipeline for a database hosted on Redshift. I wi
 ![Data Pipeline](data_pipeline.png)
     
 ### 2. Tech Stack and Knowledge
+![Docker](https://img.shields.io/badge/Docker-white?style=flat&logo=Docker&logoColor=white&color=blue)
 
 - Data warehouse knowledge
     - Dimensional Modeling
